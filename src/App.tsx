@@ -3,6 +3,11 @@ import Page from './pages/Page';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Product from './pages/Product';
+import Cart from './pages/Cart';
+import Payment from './pages/Payment';
+import Contact from './pages/Contact';
+
 
 import React from 'react';
 import { IonApp, IonRouterOutlet, IonSplitPane } from '@ionic/react';
@@ -40,8 +45,12 @@ const App: React.FC = () => {
             <Route path="/home" component={Home} exact />
             <Route path="/login" component={Login} exact />
             <Route path="/register" component={Register} exact />
+            <Route path="/product" component={Product} exact />
+            <Route path="/cart" component={Cart} exact />
+            <Route path="/payment" component={Payment} exact />
+            <Route path="/contact" component={Contact} exact />
 
-            <Redirect from="/" to="/page/Inbox" exact />
+            <Redirect from="/" to="/home" exact />
           </IonRouterOutlet>
         </IonSplitPane>
       </IonReactRouter>

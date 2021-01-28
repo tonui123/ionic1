@@ -1,8 +1,7 @@
 import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import React from 'react';
-import {Slides} from '../components/Slides';
 
-const Home: React.FC = () => {
+const Contact: React.FC = () => {
 
   return (
     <IonPage>
@@ -11,17 +10,16 @@ const Home: React.FC = () => {
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
-          <IonTitle> Home </IonTitle>
+          <IonTitle> Contact </IonTitle>
         </IonToolbar>
       </IonHeader>
 
       <IonContent fullscreen>
+            ติดต่อเรา
             
-            <Slides/>
-
       </IonContent>
     </IonPage>
   );
 };
 
-export default Home;
+export default Contact;

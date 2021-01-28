@@ -62,25 +62,25 @@ const appPages: AppPage[] = [
   },
   {
     title: 'Product',
-    url: '/page/Archived',
+    url: '/product',
     iosIcon: beerOutline,
     mdIcon: beerSharp
   },
   {
     title: 'Cart',
-    url: '/page/Trash',
+    url: '/cart',
     iosIcon: cartOutline,
     mdIcon: cartSharp
   },
   {
     title: 'Payment',
-    url: '/page/Spam',
+    url: '/payment',
     iosIcon: cashOutline,
     mdIcon: cashSharp
   },
   {
     title: 'Contact',
-    url: '/page/Spam',
+    url: '/contact',
     iosIcon: callOutline,
     mdIcon: callSharp
   }
